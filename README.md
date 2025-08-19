@@ -1,4 +1,4 @@
-# Authentication and Survey Application
+# Survey Form Web Application
 
 This is a Flask web application that provides user authentication (signup and login) and allows logged-in users to fill out a lab survey.
 
