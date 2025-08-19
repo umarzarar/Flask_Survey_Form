@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard - Pakistan Election System</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ece5dd;
+    }
+
+    header {
+      background-color: #25d366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .card {
+      background-color: #dcf8c6;
+      border-radius: 16px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h2 {
+      font-size: 20px;
+      margin: 0;
+      color: #25d366;
+    }
+
+    .card p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #25d366;
+      color: white;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Pakistan Election System - Admin Dashboard
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Voter Management</h2>
+      <p>View, add or update voter records.</p>
+    </div>
+
+    <div class="card">
+      <h2>Election Settings</h2>
+      <p>Manage elections and scheduling.</p>
+    </div>
+
+    <div class="card">
+      <h2>Candidate Management</h2>
+      <p>Register and view candidates.</p>
+    </div>
+
+    <div class="card">
+      <h2>Results</h2>
+      <p>View and publish election results.</p>
+    </div>
+
+    <div class="card">
+      <h2>User Accounts</h2>
+      <p>Manage system user roles and credentials.</p>
+    </div>
+
+    <div class="card">
+      <h2>Votes</h2>
+      <p>Access voting records and statistics.</p>
+    </div>
+
+    <div class="card">
+      <h2>Offline Votes</h2>
+      <p>Review and import offline voting data.</p>
+    </div>
+
+    <div class="card">
+      <h2>Backups</h2>
+      <p>Manage system backups and restores.</p>
+    </div>
+
+    <div class="card">
+      <h2>Audit Logs</h2>
+      <p>Track system changes and user actions.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Pakistan Election System | Admin Panel
+  </footer>
+
+</body>
+</html>
